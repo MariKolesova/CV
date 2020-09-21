@@ -1,0 +1,87 @@
+html, body{
+    min-height: 100%;
+}
+.photo {
+    height: 200px;
+    border-radius: 200px 200px 200px 200px; 
+    border: 3px solid rgb(226, 25, 199);
+}
+div.flex{
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+}
+div{
+    display: inline-block;
+}
+.aboutme{
+    position: absolute;
+    top: 100px;
+    left: 750px;
+}
+.center{
+    padding: 10px;
+    margin-left: 33%;
+}
+.someinfo{
+    width: 450px;
+}
+.name{
+    margin: 20px;
+    font-family: Pompadur, 'Courier', cursive;
+    font-size: 150%;
+}
+.maininfo{
+    width: 250px;
+    height: 350px;
+}
+img{
+    margin: 20px;
+}
+hr.general{
+    width: 425px;
+    margin: 0px;
+}
+.inSight{
+    display: flex;
+    justify-content: center;
+}
+.necessary{
+    margin: 30px;
+    padding: 10px;
+}
+hr{
+    background-color: rgb(226, 25, 199);
+    height: 5px;
+    width: 250px;
+    margin: 3px;
+}
+.heading{
+    text-align: center;
+}
+.hide {
+    display: none; 
+}
+.hide + label ~ div{
+    display: none;
+}
+.hide + label {
+    border-bottom: 1px dotted rgb(226, 25, 199);
+    padding: 0;
+    color: rgb(226, 25, 199);
+    cursor: pointer;
+    display: inline-block; 
+}
+.hide:checked + label {
+    color: rgb(226, 25, 199);
+    border-bottom: 0;
+}
+.hide:checked + label + div {
+    display: block; 
+    background: #ffffff;
+    box-shadow: inset 3px 3px 10px #0e2627;
+    padding: 10px; 
+}
+ul{
+    display: inline-block;
+}
